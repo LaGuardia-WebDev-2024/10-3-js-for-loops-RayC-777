@@ -4,10 +4,21 @@ setup = function() {
   background(255, 255, 247);
   stroke(173, 222, 237);
 
-  var i = 0;
-  while (i < 400) {
-      line(0, i, 400, i);
-      i+=20;
-  }
+for (var i = 0; i < 500; i+=20)
+{
+
+ line(0, i, 400, i);
+
+};
+
+
+for (var i ; i < 400 ; i+=60) 
+{
+   
+   text('😉😊😁😀😆🤨', 50, i);
+
+};
+
+
 }
 
